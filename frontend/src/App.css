@@ -1,0 +1,400 @@
+/* ========== Global Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========== Root Variables ========== */
+:root {
+  --primary-color: #007bff;
+  --hover-color: #0056b3;
+  --text-dark: #333;
+  --text-light: #555;
+  --bg-light: #f8f9fa;
+  --border-color: #ccc;
+  --success-bg: #d4edda;
+  --success-text: #155724;
+  --error-bg: #f8d7da;
+  --error-text: #721c24;
+}
+
+/* ========== Main Container ========== */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== Headings ========== */
+h2 {
+  font-size: 24px;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+/* ========== Upload Section ========== */
+input[type="file"] {
+  padding: 10px;
+  border: 2px dashed var(--border-color);
+  border-radius: 6px;
+  width: 100%;
+  background: #fafafa;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: var(--primary-color);
+}
+
+/* ========== Buttons ========== */
+.btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: var(--hover-color);
+}
+
+/* ========== Extracted Details ========== */
+.details-container {
+  text-align: left;
+  margin-top: 20px;
+  padding: 15px;
+  background: var(--bg-light);
+  border-radius: 8px;
+}
+
+.details-container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.details-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.details-box {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+/* ========== Images Display ========== */
+.profile-image,
+.badge-image {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.badge-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+/* ========== Checkbox Section ========== */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.checkbox-container input {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.checkbox-container label {
+  font-size: 16px;
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+/* ========== Status Messages ========== */
+.status {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.success {
+  background: var(--success-bg);
+  color: var(--success-text);
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background: var(--error-bg);
+  color: var(--error-text);
+  border: 1px solid #f5c6cb;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .badge-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* ========== Section Title ========== */
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* ========== Certificate Details Container ========== */
+.certificate-details {
+  max-width: 700px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  text-align: center;
+}
+
+/* ========== Profile Image Wrapper ========== */
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 140px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* ========== No Image Placeholder ========== */
+.no-image {
+  font-size: 14px;
+  color: #888;
+}
+
+/* ========== Grid Layout ========== */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+/* ========== Info Grid ========== */
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ========== Each Info Row ========== */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: var(--bg-light);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* ========== Key & Value Styling ========== */
+.info-key {
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+.info-value {
+  font-weight: normal;
+  color: var(--text-light);
+}
+
+/* ========== No Data Message ========== */
+.no-data {
+  font-size: 16px;
+  color: #d9534f;
+  font-weight: bold;
+  text-align: center;
+}
+/* ========== Buttons ========== */
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+button{
+  background: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+/* ========== QR Code Section ========== */
+.qr-section {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.qr-section button {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 12px auto;
+  padding: 14px;
+  font-size: 16px;
+}
+
+/* ========== Re-Upload Section ========== */
+.reupload-section {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.reupload-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.reupload-section input[type="file"] {
+  display: block;
+  width: 90%;
+  max-width: 350px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  background: #fafafa;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reupload-section input[type="file"]:hover {
+  border-color: #007bff;
+}
+
+.reupload-section button {
+  margin-top: 15px;
+}
+
+/* ========== Verification Status ========== */
+.status {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 600px) {
+  .qr-section button {
+    width: 100%;
+  }
+
+  .reupload-section {
+    padding: 15px;
+  }
+
+  .reupload-section input[type="file"] {
+    width: 100%;
+  }
+}
+
