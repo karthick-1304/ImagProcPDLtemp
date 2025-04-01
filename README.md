@@ -1,9 +1,6 @@
 # 🎓 **College Fee Payment DApp - Blockchain** 💳  
 A **decentralized application** for students to pay college fees **securely using Ethereum & MetaMask**, eliminating third-party costs. This system enables **cross-border, instant, and tamper-proof** transactions.  
 
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/projectname?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/yourusername/projectname?style=social)  
-![GitHub contributors](https://img.shields.io/github/contributors/yourusername/projectname)  
 
 ---
 
@@ -26,10 +23,8 @@ A **decentralized application** for students to pay college fees **securely usin
 
 ---
 
-## 🌍 **Live Demo**  
-🚀 **[View Project](https://yourproject.com)**  
+ 
 
----
 
 ## 📸 **Screenshots**  
 
@@ -110,25 +105,10 @@ contract CollegeFeePayment {
 
 ---
 
-## 🤝 **Contributing**  
-We **welcome contributions**! Follow these steps:  
-1. **Fork the repo**  
-2. **Create a new branch** (`feature/new-feature`)  
-3. **Commit your changes**  
-4. **Push to the branch**  
-5. **Open a Pull Request**  
-
----
-
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
-
----
 
 ## 📩 **Contact**  
-📧 **Email:** your.email@example.com  
-🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)  
-💼 **LinkedIn:** [Your Profile](https://linkedin.com/in/yourname)  
+📧 **Email:** ponkarthikeyan13@gmail.com  
+💼 **LinkedIn:** [Ponkarthikeyan13](https://www.linkedin.com/in/ponkarthikeyan-poolaiah)  
 
 ---
 
